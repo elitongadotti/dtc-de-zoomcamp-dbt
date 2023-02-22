@@ -2,16 +2,14 @@ version: 2
 
 sources:
   - name: staging
-    database: dtc-de-375519 # bq project
-    schema: trips_data_all # bq dataset
+    # dev
+    #database: dtc-de-375519 # bq project
+    #schema: trips_data_all # bq dataset
 
-    tables: 
-      - name: green_tripdata
-      - name: yellow_tripdata
-
-  - name: production
+    # prod
     database: dtc-de-375519 # bq project
     schema: trips_data_all_prod # bq dataset
+
     tables: 
       - name: green_tripdata
       - name: yellow_tripdata
