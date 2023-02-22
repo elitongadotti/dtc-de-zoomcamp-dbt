@@ -9,6 +9,12 @@ sources:
       - name: green_tripdata
       - name: yellow_tripdata
 
+  - name: production
+    database: dtc-de-375519 # bq project
+    schema: trips_data_all_prod # bq dataset
+    tables: 
+      - name: green_tripdata
+      - name: yellow_tripdata
 
 models:
     - name: stg_green_tripdata
