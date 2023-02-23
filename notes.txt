@@ -1,0 +1,1 @@
+job: dbt build --full-refresh --select +dm_monthly_zone_revenue
